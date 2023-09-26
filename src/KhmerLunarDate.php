@@ -83,6 +83,6 @@ class KhmerLunarDate
      */
     public function toString()
     {
-        return "ថ្ងៃ$this->dayOfWeek". "$this->lunarDay ខែ$this->lunarMonth ឆ្នាំ$this->lunarZodiac $this->lunarEra ព.ស$this->lunarYear";
+        return "ថ្ងៃ$this->dayOfWeek $this->lunarDay ខែ$this->lunarMonth ឆ្នាំ$this->lunarZodiac $this->lunarEra ព.ស.$this->lunarYear";
     }
 }
