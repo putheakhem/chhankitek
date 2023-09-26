@@ -33,4 +33,14 @@ class LunarDay
     {
         return $this->moonStatus;
     }
+    
+     /**
+     * Convert the object to a string representation.
+     *
+     * @return string
+     */
+    public function __toString()
+    {
+        return "$this->moonCount" . "$this->moonStatus";
+    }
 }
