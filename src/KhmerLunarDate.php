@@ -2,6 +2,8 @@
 
 namespace Asorasoft\Chhankitek;
 
+use Illuminate\Support\Str;
+
 class KhmerLunarDate
 {
     private $dayOfWeek;
